@@ -216,7 +216,6 @@ section h1{
     text-align: left;
     text-transform: capitalize;
 }
-
 .coming-offer-mid{
     border-radius: 50%;
     width: 463px;
@@ -241,9 +240,66 @@ section h1{
     text-align: left;
     margin-bottom: 16px;
 }
-
 /* Coming offer section End */
-
+/* holidays sale section start */
+.holidays-sell-container{
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    margin-top: 120px;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+}
+.holidays-text{
+    width: 1068px;
+    height: 260px;
+    flex-direction: column;
+}
+.holidays-sell-container h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.holidays-sell-container h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.holidays-sell-container h1 span{
+    color: rgb(255, 0, 0);
+}
+.holidays-sell-container p{
+    text-align: center;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    position: absolute;
+    top: 77%;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+}
+.holidays-sell-container .gift{
+    margin-top: 100px;
+    width: 1320px;
+    height: 662.07px;
+}
+.gift-box{
+    position: relative;
+    margin-right: 100px;
+}
+.discount{
+    margin-bottom: 15%;
+}
+/* holidays sale section End */
 
 
 
