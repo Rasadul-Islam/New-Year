@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Merriweather;
+}
+/* Sheared style start */
+.flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header-section start here */
+.header-container{
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background:rgba(0,0,0,0.5) url(../images/Banner-Image.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+.header-content{
+   flex-direction: column;
+}
+
+section h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+section h1{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+/* header-section End here */
+/* 65% off offer style start */
+.offer-section{
+    flex-direction: column;
+    width: 803px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.offer-section h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.offer-section h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+}
+.offer-section h2{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.offer-section img{
+    margin-top: 48px;
+}
+/*65% off offer style end */
+/* welcome Party section Start */
+
+/* welcome Party section end */
