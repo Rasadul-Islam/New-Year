@@ -87,5 +87,54 @@ section h1{
 }
 /*65% off offer style end */
 /* welcome Party section Start */
+.welcome-party{
+    border: 5px solid red;
+    margin-bottom: 50px;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 120px;    
+    background:rgba(0,0,0,0.3)url(../images/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+.welcome-content h1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+.welcome-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 72px;
+}
+.welcome-content span{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;    
+}
+.welcome-image img{
+    margin-left: 100px;
+}
 
 /* welcome Party section end */
+/* Footer section start */
+footer{
+    margin: 500px;
+}
+/* Footer section End */
