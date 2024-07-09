@@ -300,8 +300,106 @@ section h1{
     margin-bottom: 15%;
 }
 /* holidays sale section End */
+/* portfolio section start */
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;    
+    margin: 0 auto;
+    margin-top: 120px;
+    
+}
+.portfolio-text-content h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.portfolio-text-content h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    margin: 16px 0;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.portfolio-img-section{
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
 
-
+/* portfolio section End */
+/* subscribe section start */
+.subscribe{
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 120px;
+    flex-direction: column;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-text-section{
+    flex-direction: column;
+}
+.subscribe-text-section img{
+    width: 150px;
+    height: 150px;
+    margin: 46px;
+}
+.subscribe-text-section h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    margin-bottom: 22px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.subscribe-form{
+    width: 648px;
+    height: 72px;
+    margin-bottom: 80px;
+    position: relative;
+    
+}
+.subscribe-form .form-email{
+    width: 648px;
+    height: 72px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+.subscribe-form button{
+    position: absolute;
+    width: 210px;
+    height: 72px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    left: 438px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;     
+}
+/* subscribe section end */
 
 
 
