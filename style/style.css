@@ -400,13 +400,38 @@ section h1{
     text-transform: capitalize;     
 }
 /* subscribe section end */
-
-
-
-
-
 /* Footer section start */
-footer{
-    margin: 500px;
+.footer-container{
+    width: 1600px;
+    height: 609px;
+    border: 2px solid red;
+    margin: 0 auto;
+    background: rgb(7, 2, 17);
 }
+.footer-top{
+    width: 1185px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+ .footer-top h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    margin-left: 20px ;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+ }
+ .footer-top-left{
+    border: 2px solid white;
+    width: 70%;
+ }
+ .footer-top-right{
+    border: 2px solid white;
+    width: 30%;
+    flex-direction: column;
+ }
 /* Footer section End */
