@@ -13,7 +13,15 @@
     align-items: center;
     justify-content: center;
 }
-
+.pera{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 /* header-section start here */
 .header-container{
     max-width: 1320px;
@@ -134,7 +142,6 @@ section h1{
 /* welcome Party section end */
 /* Place section start */
 .place-cover{
-    border: 1px solid red;
     width: 1320px;
     height: 482px;
     margin: 0 auto;
@@ -174,7 +181,68 @@ section h1{
     text-transform: uppercase;
 }
 /* Place section End */
+/* Coming offer section start */
+.coming-offer-cover{
+    max-width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.coming-offer-left{
+    width: 33.3%;
+    height: 100%;
+    padding-right: 50px;
+    flex-direction: column;
+    align-items: start;
+}
+.coming-offer-left h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.coming-offer-left h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    margin-bottom: 22px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
 
+.coming-offer-mid{
+    border-radius: 50%;
+    width: 463px;
+    height: 463px;
+}
+.coming-offer-mid img{
+    justify-content: center;
+    align-items: center;
+}
+.coming-offer-right{
+    width: 33.3%;
+    margin-top: 11%;
+    padding-left: 12%;
+}
+.coming-offer-right h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+/* Coming offer section End */
 
 
 
